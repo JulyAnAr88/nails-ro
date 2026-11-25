@@ -1,0 +1,52 @@
+# ===== Dependencias / build (por si luego se agrega Node o un framework) =====
+node_modules/
+dist/
+build/
+.next/
+.cache/
+.parcel-cache/
+.vite/
+
+# ===== Logs =====
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===== Python (por si se usa http.server local) =====
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ===== Sistema operativo =====
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# ===== Editores / IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# ===== Variables de entorno / secretos =====
+.env
+.env.*
+!.env.example
+
+# ===== Archivos temporales =====
+*.tmp
+*.temp

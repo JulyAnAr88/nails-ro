@@ -1,0 +1,27 @@
+{
+  "tecnicas": [
+    { "id": "semipermanente", "nombre": "Esmaltado semipermanente", "descripcion": "Aplicación de esmalte de larga duración", "precio": 12000 },
+    { "id": "capping", "nombre": "Capping gel", "descripcion": "Recubrimiento y refuerzo de la uña natural", "precio": 24000 },
+    { "id": "softgel", "nombre": "Soft gel", "descripcion": "Extensiones y construcción de uñas mediante tips de gel", "precio": 26000 },
+    { "id": "softgelxxl", "nombre": "Soft gel XXL", "descripcion": "Extensiones de mayor longitud", "precio": 30000 }
+  ],
+  "decoraciones": [
+    { "id": "unacompleta", "nombre": "Uña completa strass", "precioPorUna": 800 },
+    { "id": "polvo", "nombre": "Polvo", "precioPorUna": 250 },
+    { "id": "encapsulado", "nombre": "Encapsulado", "precioPorUna": 500 },
+    { "id": "babyboomer", "nombre": "Babyboomer", "precioPorUna": 500 },
+    { "id": "aura", "nombre": "Aura", "precioPorUna": 400 },
+    { "id": "french", "nombre": "French", "precioPorUna": 500 },
+    { "id": "nailart", "nombre": "Nail art", "precioPorUna": 250 },
+    { "id": "strass", "nombre": "Strass", "precioPorUna": 250 },
+    { "id": "cateye", "nombre": "Cat eye", "precioPorUna": 200 },
+    { "id": "dijes", "nombre": "Dijes", "precioPorUna": 1000 },
+    { "id": "relieve", "nombre": "Relieve", "precioPorUna": 300 },
+    { "id": "blooming", "nombre": "Blooming", "precioPorUna": 250 },
+    { "id": "arreglo", "nombre": "Arreglo de uña", "precioPorUna": 2000 }
+  ],
+  "retiros": [
+    { "id": "mio", "nombre": "Retiro de trabajo", "precio": 10000 }
+  ],
+  "maxUnas": 10
+}
