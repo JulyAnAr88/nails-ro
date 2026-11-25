@@ -265,7 +265,7 @@ function actualizarResumen() {
 
 function mensajeWhatsApp(lineas, total) {
   let m = config.mensajeReserva || `¡Hola! Quisiera consultar por un turno en ${config.marca}.`;
-  m += "\n\nMi presupuesto estimado:";
+  m += "\n\nTe consulto por los siguientes servicios:";
   for (const l of lineas) m += `\n• ${l.concepto}: ${precio(l.monto)}`;
   m += `\n\nTotal estimado: ${precio(total)}`;
   return m;
